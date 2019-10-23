@@ -6,7 +6,7 @@
 /*   By: abenton <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/21 15:46:33 by abenton           #+#    #+#             */
-/*   Updated: 2019/10/23 13:06:54 by abenton          ###   ########.fr       */
+/*   Updated: 2019/10/23 16:16:06 by abenton          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,10 @@ typedef struct	s_flags
 	int			hashh;
 	int			width;
 	int			precision;
-	int			lenghtt;
-}				t_flags
+	int			lengthh;
+}				t_flags;
 
 int		ft_printf(const char *restrict format, ...);
+int     kek(int fd, char *str, va_list args, int nbr);
 
 #endif
