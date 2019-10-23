@@ -6,7 +6,7 @@
 /*   By: abenton <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/23 12:08:17 by abenton           #+#    #+#             */
-/*   Updated: 2019/10/23 16:16:02 by abenton          ###   ########.fr       */
+/*   Updated: 2019/10/23 18:22:38 by abenton          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,15 @@ void	ft_handle_flags(char **str, t_flags *flags)
 		flags->hashh = 1;
 }
 
+int		parse(char *format, t_flags *mem)
+{
+	char *s;
 
+	while (*s)
+	{
+		
+	}
+}
 
 int     kek(int fd, char *format, va_list args, int nbr)
 {
