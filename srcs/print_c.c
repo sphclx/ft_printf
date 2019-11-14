@@ -1,18 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   print_c.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abenton <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/04 15:13:02 by abenton           #+#    #+#             */
-/*   Updated: 2019/10/25 12:25:32 by abenton          ###   ########.fr       */
+/*   Created: 2019/11/14 11:37:40 by abenton           #+#    #+#             */
+/*   Updated: 2019/11/14 12:14:06 by abenton          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
-void	ft_putchar(char c)
+t_printf	*print_c(t_print *kek)
 {
-	write(1, &c, 1);
+	int		c;
+
+	if (ft_strcmp(tab->flag, "l") == 0)
+		c = (wint_t)va_arg(tab->args, wint_t);
+	else
+		c = (char)va_arg(tab->args, int);
+// flag handling
+// output realization
+	return (tab);
 }
