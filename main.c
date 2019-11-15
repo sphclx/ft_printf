@@ -6,14 +6,15 @@
 /*   By: abenton <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/23 14:46:40 by abenton           #+#    #+#             */
-/*   Updated: 2019/10/23 16:16:10 by abenton          ###   ########.fr       */
+/*   Updated: 2019/11/15 13:27:19 by abenton          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+//#include "ft_printf.h"
+#include <stdio.h>
 
 int		main(void)
 {
-	ft_printf("kecre%dfiosve", 12);
+	printf("%s", '\0');
 	return (0);
 }

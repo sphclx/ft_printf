@@ -6,21 +6,19 @@
 /*   By: abenton <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/14 11:37:40 by abenton           #+#    #+#             */
-/*   Updated: 2019/11/14 13:06:29 by abenton          ###   ########.fr       */
+/*   Updated: 2019/11/15 12:36:17 by abenton          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-t_printf	*print_c(t_print *kek)
+int		print_c(t_flags, va_list args)
 {
-	int		c;
+	wint_t	c;
 
-	if (ft_strcmp(tab->flag, "l") == 0)
+	if (flags->len == LEN_TYPE_L)
 		c = (wint_t)va_arg(tab->args, wint_t);
 	else
 		c = (char)va_arg(tab->args, int);
-// flag handling
-// output realization
-	return (tab);
+	
 }
